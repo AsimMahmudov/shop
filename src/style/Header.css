@@ -1,0 +1,150 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 10px;
+}
+#header {
+  background: rgb(0, 0, 107);
+}
+.logo1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.logo h1 {
+  font-weight: 900;
+  color: white;
+}
+
+.logo1 input {
+  width: 200px;
+  height: 3px;
+  font-size: 10px;
+  padding: 17px;
+  border-radius: 3px;
+  border: none;
+}
+.ic {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.ic button {
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  color: white;
+  border: none;
+  background: rgba(255, 0, 0, 0);
+}
+
+.ic h4 {
+  margin-top: -7px;
+}
+
+/* /////////////////////////////////// */
+
+.modal-content {
+  width: 500px;
+  height: 300px;
+  background: #001170;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.modal-window {
+  width: 500%;
+  height: 500%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.288);
+  position: absolute;
+  backdrop-filter: blur(5px);
+  border-radius: 30px;
+  margin-top: 800px;
+  margin-left: -1000px;
+}
+.cick {
+  width: 30px;
+  height: 30px;
+  font-size: 40px;
+  border: none;
+  background: #00117000;
+  font-weight: 500;
+  color: white;
+}
+
+.mo {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.as {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.as input {
+  width: 350px;
+  height: 30px;
+  font-size: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.as button {
+  width: 390px;
+  height: 60px;
+  border-radius: 10px;
+  background: yellow;
+  font-size: 20px;
+}
+.addPro {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 50px;
+}
+
+.fil {
+  width: 400px;
+  height: 400px;
+  background: rgb(173, 191, 192);
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.box input {
+  width: 300px;
+  padding: 10px;
+}
+.box button {
+  width: 325px;
+  height: 50px;
+  background: #001170;
+  color: white;
+  font-size: 20px;
+}
+.rr input {
+  width: 130px;
+  height: 30px;
+  padding: 10px;
+}
+.dd {
+  margin-left: 15px;
+}
+
+.ab {
+  width: 130px;
+  height: 170px;
+  padding: 10px;
+}

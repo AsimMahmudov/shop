@@ -1,0 +1,44 @@
+.hero img {
+  width: 100%;
+}
+.hero button {
+  background: rgba(141, 141, 141, 0.685);
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -300px;
+}
+.asim {
+  background: rgb(0, 60, 255);
+  width: 200px;
+  /* height: 360px; */
+  color: white;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.asim img {
+  width: 220px;
+  height: 300px;
+}
+.product {
+  margin-top: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
